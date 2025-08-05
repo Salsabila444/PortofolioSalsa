@@ -1,0 +1,357 @@
+
+<!-- template top-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Title -->
+		<title></title>
+
+		<!-- icon  -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="botstrap/css/bootstrap.min.css" />
+		<!-- Main css -->
+		<link rel="stylesheet" href="main.css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	</head>
+
+	<body>
+<!-- header -->
+<header class="header" id="header">
+	<div class="container">
+		<div class="header-wrap">
+			<!-- logo  -->
+			<div class="logo">
+				<a href="#">
+					<img src="image/logowebdesain-removebg-preview.png" alt="logo" />
+				</a>
+			</div>
+
+			<!-- menu  -->
+			<div class="menu">
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#project">Project</a></li>
+					<li><a href="#skill">Skill</a></li>
+				</ul>
+			</div>
+
+			<!-- action  -->
+			<div class="action">
+				<a href="#contact" class="btn--primary fw--600">Let’s talk</a>
+				<button
+					class="mobile-menu btn--outline"
+					type="button"
+					data-bs-toggle="offcanvas"
+					data-bs-target="#mobile-canvas"
+					aria-controls="mobile-canvas"
+				>
+					<iconify-icon icon="hugeicons:menu-square"></iconify-icon>
+				</button>
+
+				<div class="offcanvas offcanvas-start" tabindex="-1" id="mobile-canvas">
+					<div class="offcanvas-header">
+						<div class="logo">
+							<a href="index.html">
+								<img src="assets/images/logo/logo.png" alt="logo" />
+							</a>
+						</div>
+						<button
+							type="button"
+							class="btn-close"
+							data-bs-dismiss="offcanvas"
+							aria-label="Close"
+						></button>
+					</div>
+					<div class="offcanvas-body">
+						<ul class="mobile-menu-list">
+							<li><a href="#header">Home</a></li>
+							<li><a href="#about-me">About</a></li>
+							<li><a href="#recent-project">project</a></li>
+							<li><a href="#service">Service</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!-- about -->
+<section class="about-section d-flex align-items-center justify-content-center text-center">
+    <div class="position-relative">
+      <img src="image/About Me.png" alt="Foto" class="img-fluid foto-about">
+    </div>
+  </section>
+    <section class="container my-5">
+    <div class="row align-items-center bg-primary text-white rounded-4 p-4 shadow-lg">
+      <div class="col-md-5 text-center mb-4 mb-md-0">
+        <img src="image/Salsa.JPG" class="img-fluid rounded-4 shadow" alt="Foto Profil">
+      </div>
+      <div class="col-md-7">
+        <h2 class="fw-bold mb-3">ABOUT ME</h2>
+        <hr class="border-white opacity-100 w-25 mb-4">
+        <p>
+          Saya adalah pelajar yang tertarik di bidang pengembangan web. Saat ini saya sedang belajar HTML, CSS, JavaScript, dan Laravel. Saya juga sedang eksplorasi animasi dengan GSAP untuk membuat website yang lebih interaktif dan menarik. Saya senang belajar sendiri dan terus mencoba hal-hal baru untuk mengasah skill saya.
+        </p>
+        <a href="#" class="btn btn-outline-light rounded-pill px-4 py-2 mt-3 shadow-sm">
+          Selengkapnya <i class="fas fa-angle-double-right ms-2"></i>
+        </a>
+        <div class="d-flex align-items-center gap-4 mt-4 flex-wrap">
+          <div class="d-flex align-items-center">
+            <i class="bi bi-telephone"></i>
+             <span>083807495598</span>
+          </div>
+          <div class="d-flex align-items-center">
+            <i class="bi bi-envelope"></i>
+             <span>salsa.wanteknologi@gmail.com</span>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- Project  -->
+<section class="container py-5">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">PROJECT</h2>
+      <div class="underline mx-auto"></div>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6" >
+        <div class="bg-white rounded-4 p-3 shadow-sm h-100">
+          <img src="image/project/web1.png" class="img-fluid rounded mb-3" alt="Guestbook">
+          <h6 class="fw-bold">Website Guestbook</h6>
+          <p class="mb-1 text-muted">With user-centered approach, the goals was to create.</p>
+          <small class="text-end d-block text-muted">2025</small>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="bg-white rounded-4 p-3 shadow-sm h-100">
+          <img src="image/project/web2.png" class="img-fluid rounded mb-3" alt="Porsche">
+          <h6 class="fw-bold">Website Porsche</h6>
+          <p class="mb-1 text-muted">With user-centered approach, the goals was to create.</p>
+          <small class="text-end d-block text-muted">2025</small>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="bg-white rounded-4 p-3 shadow-sm h-100">
+          <img src="image/project/web3.png" class="img-fluid rounded mb-3" alt="Solution">
+          <h6 class="fw-bold">Website Solution</h6>
+          <p class="mb-1 text-muted">With user-centered approach, the goals was to create.</p>
+          <small class="text-end d-block text-muted">2025</small>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="bg-white rounded-4 p-3 shadow-sm h-100">
+          <img src="image/project/web4.png" class="img-fluid rounded mb-3" alt="Yaemiko">
+          <h6 class="fw-bold">Website Yaemiko</h6>
+          <p class="mb-1 text-muted">With user-centered approach, the goals was to create.</p>
+          <small class="text-end d-block text-muted">2024</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+ <section class="container py-5" background=>
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">MY SKILL</h2>
+      <div class="underline mx-auto"></div>
+    </div>
+
+    <div class="mb-4">
+      <label>HTML</label>
+      <div class="progress custom-progress">
+        <div class="progress-bar bg-dark text-white" style="width: 90%;">90%</div>
+      </div>
+    </div>
+
+    <div class="mb-4">
+      <label>CSS</label>
+      <div class="progress custom-progress">
+        <div class="progress-bar bg-dark text-white" style="width: 75%;">75%</div>
+      </div>
+    </div>
+
+    <div class="mb-4">
+      <label>BOOTSTRAP</label>
+      <div class="progress custom-progress">
+        <div class="progress-bar bg-dark text-white" style="width: 80%;">80%</div>
+      </div>
+    </div>
+
+    <div class="mb-4">
+      <label>CANVA</label>
+      <div class="progress custom-progress">
+        <div class="progress-bar bg-dark text-white" style="width: 85%;">85%</div>
+      </div>
+    </div>
+
+    <div class="mb-4">
+      <label>LARAVEL</label>
+      <div class="progress custom-progress">
+        <div class="progress-bar bg-dark text-white" style="width: 78%;">78%</div>
+      </div>
+    </div>
+  </section>
+
+<!-- contact -->
+<section class="container py-5">
+    <span class="badge bg-light text-dark fw-medium px-4 py-2 rounded-pill mb-3">Contact Us</span>
+    <h2 class="fw-bold mb-4" style="font-size: 2.5rem;">Let's Work Together!</h2>
+    <form>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <input type="text" class="form-control custom-input" placeholder="Name">
+        </div>
+        <div class="col-md-6">
+          <input type="email" class="form-control custom-input" placeholder="Email">
+        </div>
+        <div class="col-md-6">
+          <input type="text" class="form-control custom-input" placeholder="Phone Number">
+        </div>
+        <div class="col-md-6">
+          <input type="text" class="form-control custom-input" placeholder="Subject">
+        </div>
+      </div>
+      <div class="mt-4">
+        <button type="submit" class="btn btn-primary custom-btn px-5 py-3 rounded-pill">
+         <i class="bi bi-send"></i> Send Message
+        </button>
+      </div>
+    </form>
+  </section>
+
+<!-- footer -->
+<footer id="footer">
+	<div class="container">
+		<div class="row gy-4">
+			<div class="col-sm-4">
+				<div class="footer-side-1">
+					<a href="index.html" class="footer-logo d-inline-block">
+						<img src="image/logowebdesain-removebg-preview.png" alt="" />
+					</a>
+					<div class="content">
+						<p class="text">
+							Your personal portfolio is more than just a collection of your
+							work—it's a reflection of your brand, personality, and unique
+							skills.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-4 col-sm-2">
+				<div class="footer-side-2">
+					<div class="title-box">
+						<h4 class="title">Useful Link</h4>
+					</div>
+					<div class="content">
+						<ul class="footer-link">
+							<li><a class="active" href="#about-me">About Us</a></li>
+							<li><a href="#service">Our Service</a></li>
+							<li><a href="#testimonials">Testimonial</a></li>
+							<li><a href="#recent-project">Our Project</a></li>
+							<li><a href="#contact">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-8 col-sm-3">
+				<div class="footer-side-3">
+					<div class="title-box">
+						<h4 class="title">Contact Info</h4>
+					</div>
+					<div class="content">
+						<ul class="d-flex flex-column gap-4">
+							<li>
+								<div class="footer-contact-info">
+									<div class="icon">
+										<iconify-icon
+											class="icon"
+											icon="material-symbols:attach-email"
+										></iconify-icon>
+									</div>
+									<div class="details">
+										<a href="salsabila@gmail.com" class="title">salsabila@gmail.com</a>
+										<p class="subtext">Salsa Bila</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="footer-contact-info">
+									<div class="icon">
+										<iconify-icon
+											class="icon"
+											icon="material-symbols:call"
+										></iconify-icon>
+									</div>
+									<div class="details">
+										<a href="tel:0199999999" class="title">0199999999</a>
+										<p class="subtext">Salsa BIla</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="footer-contact-info">
+									<div class="icon">
+										<iconify-icon
+											class="icon"
+											icon="material-symbols:location-on"
+										></iconify-icon>
+									</div>
+									<div class="details">
+										<a target="_blank" href="https://maps.app.goo.gl/F8VEKpXMmxoVQoCEA" class="title">Bogor</a>
+										<p class="subtext">Salsa Bila</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="footer-side-4">
+					<div class="title-box mb-4">
+						<h4 class="title">Agency</h4>
+						<p class="subtext">
+							Feel free to reach out if you want to collaborate with us, or
+							simply chat.
+						</p>
+					</div>
+					<div class="content">
+						<form action="">
+							<div class="email-subscribe">
+								<input type="email" placeholder="Enter your mail" />
+								<button type="submit">
+									<iconify-icon icon="solar:arrow-right-outline"></iconify-icon>
+								</button>
+							</div>
+						</form>
+
+						<p class="copyright">
+							Copyright © saaa | All Right Reserved
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<!-- Jquery js -->
+<script src="assets/js/jquery-3.7.1.min.js"></script>
+<!-- Bootstrap Js -->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</body>
+
+</html>
